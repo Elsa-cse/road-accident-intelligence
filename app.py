@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 BASE = Path(__file__).resolve().parent
-DATA = BASE / "data"
+DATA = BASE / "data" if (BASE / "data").is_dir() else BASE
 
 st.set_page_config(page_title="Road Accident Intelligence", page_icon="🚦", layout="wide")
 
