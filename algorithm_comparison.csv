@@ -1,0 +1,3 @@
+Algorithm,Minimum Support,Itemsets Found,Runtime (seconds)
+Apriori,0.05,273,0.027973413467407227
+FP-Growth,0.05,273,6.057167291641235
